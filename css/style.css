@@ -8,7 +8,7 @@ body{background: #eee; font-family: 'Noto Sans KR', sans-serif;}
 
 #container01{width: 100%; height: 300px;}
 
-#container03{width: 100%; height: 700px; background: #fff; margin-bottom: 8px; padding: 20px 10px 20px 10px;}
+#container03{width: 100%; height: 580px; background: #fff; margin-bottom: 8px; padding: 20px 10px 20px 10px;}
 .item_tab_menu_wrap{width: 100%; height: 100%; position: relative;}
 .item_tab_menu_wrap .more_wrap{display: flex;}
 .item_tab_menu_wrap .more_wrap>a{font-size: 12px; line-height: 250%; margin-left: 5px; color: rgb(104, 104, 104);}
@@ -19,7 +19,12 @@ body{background: #eee; font-family: 'Noto Sans KR', sans-serif;}
 .item_tab_menu_wrap .item_tab li a.on{background: rgb(22, 48, 75); color: #fff;}
 
 .item_more_tab1{display: grid; grid-template-columns: repeat(3, 1fr);}
-.item_more_tab1 .item{background: rgb(34, 34, 51); text-align: center; margin: 5px; height: 250px;}
+.item_more_tab1 .item{background: rgb(34, 34, 51); text-align: center; margin: 5px; height: 200px;}
+.item_more_tab1 .item a > .img_wrap{width: 100%; height: 80%; background-color: #ddd;}
+.item_more_tab1 .item a > .img_wrap > img{width: 100%; height: 100%;}
+.item_more_tab1 .item a > .text_area{width: 100%; height: 20%; background: #fff;}
+.item_more_tab1 .item a > .text_area > .sub_text{font-size: 9px; display: block; text-align: left; color: rgb(107, 107, 107);}
+.item_more_tab1 .item a > .text_area > .price_text{ font-size: 15px; display: block; text-align: left; color: black;}
 
 #container02{width: 100%; height: 280px; padding: 20px 10px 0px 10px; background: #fff;}
 .tab_menu_wrap{width: 100%; height: 100%; position: relative;}
