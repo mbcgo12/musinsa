@@ -1,29 +1,44 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
 ul,li{list-style: none;}
 a{text-decoration: none;}
+h1{font-size: 23px;}
+body{background: #eee; font-family: 'Noto Sans KR', sans-serif;}
 
-#container01{width: 100%; height: 350px;}
+#container01{width: 100%; height: 300px;}
 
-#container02{width: 100%; height: 280px; padding: 20px 10px 0px 10px;}
+#container03{width: 100%; height: 700px; background: #fff; margin-bottom: 8px; padding: 20px 10px 20px 10px;}
+.item_tab_menu_wrap{width: 100%; height: 100%; position: relative;}
+.item_tab_menu_wrap .more_wrap{display: flex;}
+.item_tab_menu_wrap .more_wrap>a{font-size: 12px; line-height: 250%; margin-left: 5px; color: rgb(104, 104, 104);}
+.item_tab_menu_wrap .item_tab{display: flex; padding: 10px 0;}
+.item_tab_menu_wrap .item_tab li{width: 50px; text-align: center; background: #fff;}
+.item_tab_menu_wrap .item_tab li a{color: rgb(185, 185, 185); transition: all .3s; display: block;}
+.item_tab_menu_wrap .item_tab li a:hover{color: rgb(104, 104, 104);}
+.item_tab_menu_wrap .item_tab li a.on{background: rgb(22, 48, 75); color: #fff;}
+
+.item_more_tab1{display: grid; grid-template-columns: repeat(3, 1fr);}
+.item_more_tab1 .item{background: rgb(34, 34, 51); text-align: center; margin: 5px; height: 250px;}
+
+#container02{width: 100%; height: 280px; padding: 20px 10px 0px 10px; background: #fff;}
 .tab_menu_wrap{width: 100%; height: 100%; position: relative;}
 .tab_menu_wrap .tab{display: flex; padding: 10px 0;}
 .tab_menu_wrap .tab li{width: 50px; text-align: center; background: #fff;}
 .tab_menu_wrap .tab li a{color: rgb(185, 185, 185); transition: all .3s;}
 .tab_menu_wrap .tab li a:hover{color: rgb(104, 104, 104);}
-.tab_menu_wrap .tab li a.on{color:rgb(104, 104, 104);}
+.tab_menu_wrap .tab li a.on{background: rgb(22, 48, 75); color: #fff; display: block;}
 
 .tab_content{position: relative; top: 0; left: 0;}
 .tab_content >div{background: #fff; position: absolute; width: 100%;}
 .tab_content .tab1{display: block;}
 .tab_content .tab1 ul li{font-size: 16px; line-height: 200%;}
-.tab_content .tab1 ul li a{color: #040415; float: left; width: 80%; font-size: 14px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block;}
+.tab_content .tab1 ul li a{border-bottom: 1px solid #ddd; color: #040415; float: left; width: 80%; font-size: 14px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block;}
 .tab_content .tab1 ul li a:hover{color: #9797f0;}
-.tab_content .tab1 ul li span{width: 20%; font-size: 14px; float: right; text-align: center;}
-
+.tab_content .tab1 ul li span{width: 20%; font-size: 14px; float: right; text-align: center; border-bottom: 1px solid #ddd;}
 .tab_content .tab2{display: none;}
 .tab_content .tab2 ul li{font-size: 16px; line-height: 200%;}
 .tab_content .tab2 ul li a{color: #040415; float: left; width: 80%; font-size: 14px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block;}
 .tab_content .tab2 ul li a:hover{color: #9797f0;}
 .tab_content .tab2 ul li span{width: 20%; font-size: 14px; float: right; text-align: center;}
 
-#container03{width: 100%; height: 300px; background: #eee;}
