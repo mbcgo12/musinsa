@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/banner_swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/banner_swiper.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+        defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+    <!--metaTag-->
+    <meta name="Musinsa" content="HTML, MusinsaShop">
+    <meta name="shoppingmal" content="MusinsaShopping">
+    <meta name="smallcow" content="smallcow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSINSA</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MUSINSA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Popular item
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Basket</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="container01">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/slider01.jpg" alt="img1"></div>
+                <div class="swiper-slide"><img src="img/slider02.jpg" alt="img2"></div>
+                <div class="swiper-slide"><img src="img/slider03.jpg" alt="img3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="container03">
+        <div class="item_tab_menu_wrap">
+            <div class="more_wrap">
+                <h1>상품 랭킹</h1>
+                <a href="#">전체></a>
+            </div>
+            
+            <ul class="item_tab">
+                <li><a href="#" class="on">인기</a></li>
+                <li><a href="#">원피스</a></li>
+                <li><a href="#">스커트</a></li>
+                <li><a href="#">가방</a></li>
+            </ul>
+
+            <div class="item_tab_content">
+
+                <div class="item_more_tab1">
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item1.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">[일주일만이가격] 쿠퍼 로고 티셔츠 네이비</div>
+                                <div class="price_text">27,300원</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item2.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">컴포트 시어 서커 티셔츠 블랙</div>
+                                <div class="price_text">71,000원</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item3.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">CONVERNAT X QUICKSILVER</div>
+                                <div class="price_text">161,100원</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item4.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">CONVERNAT X QUICKSILVER</div>
+                                <div class="price_text">89,100원</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item5.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">불독 컬러믹스 절개 티셔츠 네이비</div>
+                                <div class="price_text">31,850원</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#">
+                            <div class="img_wrap">
+                                <img src="img/item6.jpg" alt="">
+                            </div>
+                            <div class="text_area">
+                                <div class="sub_text">쿨 코튼 엔조이 서핑 티셔츠 크림</div>
+                                <div class="price_text">31,200원</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    <div id="container02">
+        <div class="tab_menu_wrap">
+            <ul class="tab">
+                <li><a href="#" class="on">뉴스</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">룩북</a></li>
+            </ul>
+            <div class="tab_content">
+                <div class="tab1">
+                    <ul>
+                        <li><a href="#">패션 | 인기 아우터 득템 기회! 1위로 등장한 메종미네드</a><span>2021-08-25</span></li>
+                        <li><a href="#">리포트 | [무신사 매거진] 털북숭이 친구들 육아는 장비빨!</a><span>2021-08-25</span></li>
+                        <li><a href="#">스타일 | [무신사 매거진] 올여름 휴가는 골프 여행 어때?</a><span>2021-08-25</span></li>
+                        <li><a href="#">리포트 | [무신사 매거진] 그래픽 티셔츠, 전부 다 가지고 싶으면 어떡해?</a><span>2021-08-25</span></li>
+                        <li><a href="#">코디 | [무신사 매거진] 대표님! 오늘은 반바지 입고 출근하겠습니다.</a><span>2021-08-25</span></li>
+                    </ul>
+                </div>
+                <div class="tab2">
+                    <ul>
+                        <li><a href="#">리포트 | [무신사 매거진] 디테일 끝판왕! 트래비스 스캇 × 에어 조던 1</a><span>2021-08-25</span></li>
+                        <li><a href="#">리포트 | [무신사 매거진] 태양을 피할 수 없다면 해결 방법은?</a><span>2021-08-25</span></li>
+                        <li><a href="#">스타일 | [무신사 매거진] 아위의 우아한 여름</a><span>2021-08-25</span></li>
+                        <li><a href="#">리포트 | [무신사 매거진] 어반디타입이 그려낸 여름날의 풍경</a><span>2021-08-25</span></li>
+                        <li><a href="#">리포트 | [무신사 매거진] 옷 잘 입는 커플이 여름을 즐기는 방법</a><span>2021-08-25</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
